@@ -1,0 +1,4 @@
+[submodule "sylvainvh/account-invoicing"]
+	path = sylvainvh/account-invoicing
+	url = git@github.com:sylvainvh/account-invoicing.git
+	branch = 12.0-mig-account_invoice_merge
