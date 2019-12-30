@@ -1,0 +1,7 @@
+<odoo>
+    <template id="jgl_housetyle" name="jgl_housetyle" inherit_id="web.assets_backend">
+        <xpath expr=".">
+            <link rel="stylesheet" href="/jgl_housestyle/static/src/scss/housestyle.scss" />
+         </xpath>
+    </template>
+</odoo>
