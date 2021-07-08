@@ -145,7 +145,6 @@ class SaleAdvancePaymentInv(models.TransientModel):
                                 'discount': line.discount,
                                 'uom_id': line.product_uom.id,
                                 'product_id': line.product_id.id or False,
-                                'layout_category_id': line.layout_category_id and line.layout_category_id.id or False,
                                 'invoice_line_tax_ids': [(6, 0, line.tax_id.ids)],
 #                                 'analytic_account_id': line.order_id.project_id.id,
                                 'analytic_tag_ids': [(6, 0, line.analytic_tag_ids.ids)],
@@ -192,7 +191,6 @@ class SaleAdvancePaymentInv(models.TransientModel):
                                     'discount': line.discount,
                                     'uom_id': line.product_uom.id,
                                     'product_id': line.product_id.id or False,
-                                    'layout_category_id': line.layout_category_id and line.layout_category_id.id or False,
                                     'invoice_line_tax_ids': [(6, 0, line.tax_id.ids)],
                                     'analytic_tag_ids': [(6, 0, line.analytic_tag_ids.ids)],
                                 }
@@ -225,7 +223,6 @@ class SaleAdvancePaymentInv(models.TransientModel):
                                     'discount': line.discount,
                                     'uom_id': line.product_uom.id,
                                     'product_id': line.product_id.id or False,
-                                    'layout_category_id': line.layout_category_id and line.layout_category_id.id or False,
                                     'invoice_line_tax_ids': [(6, 0, line.tax_id.ids)],
 #                                     'account_analytic_id': line.order_id.project_id.id,
                                     'analytic_tag_ids': [(6, 0, line.analytic_tag_ids.ids)],
@@ -252,7 +249,6 @@ class SaleAdvancePaymentInv(models.TransientModel):
                                     'discount': line.discount,
                                     'uom_id': line.product_uom.id,
                                     'product_id': line.product_id.id or False,
-                                    'layout_category_id': line.layout_category_id and line.layout_category_id.id or False,
                                     'invoice_line_tax_ids': [(6, 0, line.tax_id.ids)],
                                     'analytic_tag_ids': [(6, 0, line.analytic_tag_ids.ids)],
                                 }
